@@ -1,0 +1,5 @@
+person:
+  foods: fish,noodles
+  foodList:
+    - fish
+    - noodles

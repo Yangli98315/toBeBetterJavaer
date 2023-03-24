@@ -11,6 +11,8 @@
     <modules>
         <module>calove-dependencies</module>
         <module>calove-spring-cloud-learning</module>
+        <module>calove-spring-boot-learning</module>
+        <module>multi-threading-learning</module>
     </modules>
 
     <properties>
