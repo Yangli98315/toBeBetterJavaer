@@ -13,6 +13,7 @@
         <module>calove-spring-cloud-learning</module>
         <module>calove-spring-boot-learning</module>
         <module>multi-threading-learning</module>
+        <module>calove-rocketmq-learning</module>
     </modules>
 
     <properties>

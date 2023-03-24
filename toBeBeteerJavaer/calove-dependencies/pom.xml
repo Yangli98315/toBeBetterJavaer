@@ -16,6 +16,9 @@
         <spring.boot.version>2.7.8</spring.boot.version>
         <spring.cloud.version>2021.0.5</spring.cloud.version>
         <spring.cloud.alibaba.version>2021.0.4.0</spring.cloud.alibaba.version>
+        <!--消息队列-->
+        <rocketmq.version>2.2.2</rocketmq.version>
+        <hutool.version>5.8.11</hutool.version>
     </properties>
 
     <dependencyManagement>
@@ -41,6 +44,19 @@
                 <version>${spring.cloud.alibaba.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <!--消息队列-->
+            <dependency>
+                <groupId>org.apache.rocketmq</groupId>
+                <artifactId>rocketmq-spring-boot-starter</artifactId>
+                <version>${rocketmq.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
             </dependency>
 
 
