@@ -1,0 +1,7 @@
+/.idea/
+/calove-dependencies.iml
+/calove-spring-boot-learning.iml
+/calove-spring-boot-learning/target/
+/calove-spring-cloud-learning/nacos-config/target/
+/multi-threading-learning/target/
+/calove-spring-redis-demo/target/

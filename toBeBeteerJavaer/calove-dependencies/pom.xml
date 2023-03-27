@@ -19,6 +19,8 @@
         <!--消息队列-->
         <rocketmq.version>2.2.2</rocketmq.version>
         <hutool.version>5.8.11</hutool.version>
+
+        <redisson.version>3.18.0</redisson.version>
     </properties>
 
     <dependencyManagement>
@@ -57,6 +59,24 @@
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-all</artifactId>
                 <version>${hutool.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.calove</groupId>
+                <artifactId>calove-common</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson-spring-boot-starter</artifactId>
+                <version>${redisson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.calove</groupId>
+                <artifactId>calove-spring-boot-redis-starter</artifactId>
+                <version>${revision}</version>
             </dependency>
 
 

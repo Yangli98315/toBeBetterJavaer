@@ -1,0 +1,2 @@
+com.calove.framework.redis.config.CaloveAutoRedisConfiguration
+com.calove.framework.redis.config.CaloveCacheRedisAutoConfiguration

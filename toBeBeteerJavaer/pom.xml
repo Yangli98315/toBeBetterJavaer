@@ -10,10 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>calove-dependencies</module>
-        <module>calove-spring-cloud-learning</module>
-        <module>calove-spring-boot-learning</module>
-        <module>multi-threading-learning</module>
-        <module>calove-rocketmq-learning</module>
+        <module>calove-frameowrk</module>
+        <module>calove-spring-redis-demo</module>
     </modules>
 
     <properties>
@@ -24,6 +22,7 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <maven-surefire-plugin.version>3.0.0-M5</maven-surefire-plugin.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+        <spring.boot.version>2.7.8</spring.boot.version>
         <lombok.version>1.18.24</lombok.version>
         <mapstruct.version>1.5.3.Final</mapstruct.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
